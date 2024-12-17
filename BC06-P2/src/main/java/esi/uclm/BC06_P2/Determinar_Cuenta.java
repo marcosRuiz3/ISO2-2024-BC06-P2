@@ -3,7 +3,7 @@ package esi.uclm.BC06_P2;
 public class Determinar_Cuenta {
 	
 	public String determinar_cuenta(Cliente cliente){
-		String salida= "Condicion no válida para determinar un tipo de cuenta";
+		String salida= "";
 		// COMPROBACIÓN 1: Cliente menor de 18 años, estudia y vive con sus padres
 		if(cliente.getEdadd() < 18 && cliente.isEstudiaa() && cliente.isViveconPadres()) {
 			salida= "Cuenta Confort";
@@ -33,6 +33,7 @@ public class Determinar_Cuenta {
 				}
 			}
 		}
+		salida="Condicion no válida para determinar un tipo de cuenta";
 		return salida;
 	}
 }
