@@ -1,4 +1,4 @@
-package  TT_Ejercicio2;
+package  esi.uclm.BC06_P2;
 
 public class Cliente {
 	
