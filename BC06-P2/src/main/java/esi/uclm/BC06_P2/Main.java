@@ -5,7 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		// Crear Cliente
-		Cliente cliente = new Cliente(17, true, true, true);
+		Cliente cliente = new Cliente(17, true, true);
 		
 		// Crear Instrancia
 		Determinar_Cuenta determinador = new Determinar_Cuenta();
